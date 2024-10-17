@@ -24,7 +24,12 @@
   * Reliability - Ensures that applications are resilient to failures and able to recover quickly and maintain uptime with fault tolerance and disaster recovery strategies
   * Performance Efficiency - Encourages optimal use of cloud resources including scalability and elasticity
   * Cost optimisation - Optimising resource usage and avoiding unnecessary expenses while scaling efficiently
-
+ 
+* Cloud Transformation journey
+  * Envision - demonstrating how cloud will help accelerate your business outcomes
+  * Align - identifying capability gaps across the 6 AWS CAF perspectives, identifying cross-dependencies and surfacing stakeholder concerns and challenges
+  * Launch - focuses on delivering pilot initiative in production and on demonstarting incremental business value
+  * Scale - focuses on explandin gproduction pilots and business value to desired scale and ensuring that benefits are realised and sustained
 
 
 ### Security and Compliance
@@ -44,6 +49,13 @@
 * Amazon GuardDuty - A threat detection service that continuously monitors for malicious activity and unauthorized behavior in AWS accounts. It generates findings related to security threats
 * Amazon Macie - A security service that uses machine learning to automatically discover, classify, and protect sensitive data, such as personally identifiable information (PII), in Amazon S3
 * Amazon Detective - A security service that helps users investigate and identify the root cause of potential security issues or suspicious activities.
+* AWS Firewall Manager - Simplifies administration of AWS WAF and AWS Shield across multiple accounts and resources
+* IAM Role - Give permissions to users, applications or services. Can be used for cross-account access
+* AWS Secrets Manager - secure storage, rotation, and retrieval of sensitive credentials
+* AWS CloudHSM - Provides hardware-based key storage for cryptographic keys and is more focused on custom key storage
+* AWS KMS - Creating and managing encryption keys
+* 
+
 
 
 ### Cloud Technology and Services
@@ -79,7 +91,30 @@
 * Amazon Aurora - Fully managed Relational Database with automatic scaling
 * Amazon DynamoDB - Fully managed NoSQL database
 * Amazon RedShift - Fully managed relational warehouse service
-* AWS Transit Gateway - onnects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships.
+* AWS Transit Gateway - Connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships.
+* Amazon Simple Queue Service (SQS) - fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications
+* S3 - 11 9's of durablity object storage
+  * Multi-Region Access Points - Designed for multi-region access to S3 data
+  * Storage Lens - Provides organisation-wide visibility into object storage usage and activity
+  * Glacier - Archiving and long-term backup of infrequently accessed data
+* AWS Global Accelerator - Uses AWS global network to optimise routing of traffic to applications
+* Amazon EFS - Scalable file storage
+* Amazon FSx - Fully managed file storage
+* AWS DataSync - Data transfer service that simplifies, automate and accelerates moving large amounts of data between on premise and AWS Cloud storage. Focused on efficient data transfer
+* AWS SDK - Libraries for developers to interact with AWS services from their applications
+* AWS Batch - Run batch computing workloads on AWS
+* AWS Config - Provides detailed inventory of your AWS resources and configurations and well as config history
+* Rightsizing - Matching instance types and sizes to your workload performance and capacity requirements at the lowest possible cost
+* Amazon Polly - Deploy high-quality, natural sounding human voices in dozens of languages
+* Amazon Comprehend - Derive and understand valuable insights from text within document
+* Amazon Rekognition - Automate and lower the cost of your image recognition and video analysis with ML
+* Amazon ECS - Managed container service
+* AWS Step Functions - Serverless orchestration service that enables you to coordinate multiple AWS services into serverless workflows.
+* AWS Snowmobile - up to 100 petabytes
+* AWS Snowcone - up to 8tb
+* AWS Snowball - 50 to 80tb
+* AWS Congnito - Handle user authentication on 3rd party websites with some identity providers
+
 
 ### Billing and Pricing
 * AWS Billing Conductor - create custome pricing and billing for AWS usage
@@ -93,3 +128,4 @@
   * Savings Plans - A flexible pricing model that offers lower rates in exchange for committing to a consistent amount of compute usage over a one- or three-year period, with more flexibility than Reserved Instances
   * Dedicated Hosts - Pay for physical servers dedicated to your use, allowing for licensing portability and compliance with specific licensing requirements, ideal for running legacy workloads or specific regulatory needs
 * AWS Budgets - Set budgets based on cost or usage and will alert customers when budget is hit via notifications
+* Consolidated Billing - one bill, easy tracking, combined usage, no extra fees
