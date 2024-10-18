@@ -42,7 +42,7 @@
 * Amazon Inspector - Discovers workloads, such as Amazon EC2 instances, containers, and Lambda functions, and scans them for software vulnerabilities and unintended network exposure
 * AWS Shield - Mainly for DDOS
 * AWS WAF - Blocks common web attack patterns
-* Network ACLs - Used to control traffic at the network layer
+* Network ACLs - Used to control traffic at the network layer, Stateless, process rules in order, starting from lowest numbered rule
 * Security Groups - Operate at the instance level and are stateful firewalls that control inbound and outbound traffic
 * AWS Security Token Service - provides temporary, limited-privilege credentials
 * IAM Instance Profiles - Used for proving IAM roles to EC2 instances
@@ -88,8 +88,8 @@
 * AWS Chatbot - interactive service that allows you to receive and respond to notification alerts within messaging platforms like slack and amazon chime
 * AWS CloudTrail - Records all API calls made in the AWS accounts. It provides detailed history of events
 * Amazon EventBridge - An event bus service that enables event-driven architectures
-* Amazon Aurora - Fully managed Relational Database with automatic scaling
-* Amazon DynamoDB - Fully managed NoSQL database
+* Amazon Aurora - Fully managed Relational Database with automatic scaling across multiple AZ
+* Amazon DynamoDB - Fully managed NoSQL database acorss multiple AZ
 * Amazon RedShift - Fully managed relational warehouse service
 * AWS Transit Gateway - Connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships.
 * Amazon Simple Queue Service (SQS) - fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications
@@ -97,7 +97,7 @@
   * Multi-Region Access Points - Designed for multi-region access to S3 data
   * Storage Lens - Provides organisation-wide visibility into object storage usage and activity
   * Glacier - Archiving and long-term backup of infrequently accessed data
-* AWS Global Accelerator - Uses AWS global network to optimise routing of traffic to applications
+* AWS Global Accelerator - Uses AWS global network to optimise routing of traffic to applications, improves availability and performance
 * Amazon EFS - Scalable file storage
 * Amazon FSx - Fully managed file storage
 * AWS DataSync - Data transfer service that simplifies, automate and accelerates moving large amounts of data between on premise and AWS Cloud storage. Focused on efficient data transfer
@@ -114,6 +114,8 @@
 * AWS Snowcone - up to 8tb
 * AWS Snowball - 50 to 80tb
 * AWS Congnito - Handle user authentication on 3rd party websites with some identity providers
+* AWS Lightsail - low-end hosting solutions
+* VPC Flow Logs - capture information about inbound and outbound traffic in VPC
 
 
 ### Billing and Pricing
