@@ -36,8 +36,8 @@
 * Amazon inspector - assess app vulnerabilities and identify deployments that do not meet best practices
 * AWS Trusted Advisor - optimise costs, increase performance, improve security and resilience, and operate at scale in cloud
 * IAM Access Analyzer - Analyzes IAM policies to identify potential issues and excessive permissions
-* IAM credential report - This built-in IAM feature provides detailed information about the rotation history of user passwords and access keys within the account. It shows dates of last password and access key rotation, along with usernames and key IDs
 * AWS Artifact - Self-service portal for retrieving AWS compliance and security documentation to assist with audits and regulatory compliance efforts
+* IAM credential report - This built-in IAM feature provides detailed information about the rotation history of user passwords and access keys within the account. It shows dates of last password and access key rotation, along with usernames and key IDs
 * AWS Audit Manager - Automates the process of assessing, auditing, and reporting on your AWS environment's compliance with industry standards and regulations, simplifying the preparation for audits
 * Amazon Inspector - Discovers workloads, such as Amazon EC2 instances, containers, and Lambda functions, and scans them for software vulnerabilities and unintended network exposure
 * AWS Shield - Mainly for DDOS
@@ -54,7 +54,6 @@
 * AWS Secrets Manager - secure storage, rotation, and retrieval of sensitive credentials
 * AWS CloudHSM - Provides hardware-based key storage for cryptographic keys and is more focused on custom key storage
 * AWS KMS - Creating and managing encryption keys
-* 
 
 
 
