@@ -49,9 +49,10 @@
 * Amazon GuardDuty - A threat detection service that continuously monitors for malicious activity and unauthorized behavior in AWS accounts. It generates findings related to security threats
 * Amazon Macie - A security service that uses machine learning to automatically discover, classify, and protect sensitive data, such as personally identifiable information (PII), in Amazon S3
 * Amazon Detective - A security service that helps users investigate and identify the root cause of potential security issues or suspicious activities.
-* AWS Firewall Manager - Simplifies administration of AWS WAF and AWS Shield across multiple accounts and resources
+* AWS Firewall Manager - Simplifies administration of AWS WAF, AWS Network Firewall and AWS Shield across multiple accounts and resources
+* AWS Network Firewall - A stateful, fully managed firewall service for inspecting, filtering, and protecting VPC traffic
 * IAM Role - Give permissions to users, applications or services. Can be used for cross-account access
-* AWS Secrets Manager - secure storage, rotation, and retrieval of sensitive credentials
+* AWS Secrets Manager - secure storage, rotation, and retrieval of sensitive credentials such as database credentials
 * AWS CloudHSM - Provides hardware-based key storage for cryptographic keys and is more focused on custom key storage
 * AWS KMS - Creating and managing encryption keys
 
@@ -92,12 +93,14 @@
 * Amazon RedShift - Fully managed relational warehouse service
 * AWS Transit Gateway - Connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships.
 * Amazon Simple Queue Service (SQS) - fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications
+  * Standard Queue - at least once delivery, best effort ordering (no guarantee of ordering)
+  * FIFO Queue - guarantees FIFO ordering
 * S3 - 11 9's of durablity object storage
   * Multi-Region Access Points - Designed for multi-region access to S3 data
   * Storage Lens - Provides organisation-wide visibility into object storage usage and activity
   * Glacier - Archiving and long-term backup of infrequently accessed data
 * AWS Global Accelerator - Uses AWS global network to optimise routing of traffic to applications, improves availability and performance
-* Amazon EFS - Scalable file storage
+* Amazon EFS - Scalable file storage able to span across different AZ
 * Amazon FSx - Fully managed file storage
 * AWS DataSync - Data transfer service that simplifies, automate and accelerates moving large amounts of data between on premise and AWS Cloud storage. Focused on efficient data transfer
 * AWS SDK - Libraries for developers to interact with AWS services from their applications
