@@ -82,7 +82,7 @@
 * AWS CloudFormation - Manage Infrastructure as code
 * AWS CodePipeline - Automates CI/CD
 * AWS CodeDeploy - Automate code deployment to various compute services such as Amazon EC2 instances, on-premise servers and AWS Lambda functions
-* AWS DirectConnect - Create a dedicated network connection to AWS
+* AWS DirectConnect - Create a dedicated network connection to AWS bypasses public internet
 * AWS Cloudwatch - Monitoring system that can be used to collect and track metrics, logs and event from AWS resources. It supports setting alarms based on cost metrics
 * AWS Knowledge Center - provides answers to FAQ about security
 * AWS Chatbot - interactive service that allows you to receive and respond to notification alerts within messaging platforms like slack and amazon chime
@@ -99,6 +99,7 @@
   * Multi-Region Access Points - Designed for multi-region access to S3 data
   * Storage Lens - Provides organisation-wide visibility into object storage usage and activity
   * Glacier - Archiving and long-term backup of infrequently accessed data
+  * VPC endpoint - allows connection between instances in a VPC and a service without internet gateway or NAT device. It is free of charge to S3.
 * AWS Global Accelerator - Uses AWS global network to optimise routing of traffic to applications, improves availability and performance
 * Amazon EFS - Scalable file storage able to span across different AZ
 * Amazon FSx - Fully managed file storage
@@ -118,6 +119,8 @@
 * AWS Congnito - Handle user authentication on 3rd party websites with some identity providers
 * AWS Lightsail - low-end hosting solutions
 * VPC Flow Logs - capture information about inbound and outbound traffic in VPC
+* Amazon AppFlow - full managed service that streamline data integration between SaaS applications and AWS services. easily scale.
+* Amazon MQ - 
 
 
 ### Billing and Pricing
